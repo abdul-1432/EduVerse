@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1221"/>
+      <stop offset="100%" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="gradAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7cc6ff"/>
+      <stop offset="100%" stop-color="#8bd3dd"/>
+    </linearGradient>
+    <linearGradient id="gradGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6d365"/>
+      <stop offset="100%" stop-color="#fda085"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#gradBg)"/>
+  <text x="50" y="80" fill="#f1f5f9" font-family="Playfair Display, Georgia, serif" font-size="42" font-weight="700">EduVerse — Gamified, Inclusive Learning</text>
+  <text x="50" y="115" fill="#b6c2cf" font-family="Inter, sans-serif" font-size="18">Avatars • Quests • XP • Badges • Accessibility</text>
+  <g>
+    <rect x="60" y="160" rx="16" ry="16" width="220" height="220" fill="#162238" stroke="#2a3a5c"/>
+    <circle cx="170" cy="240" r="48" fill="url(#gradAccent)"/>
+    <text x="110" y="330" fill="#f1f5f9" font-family="Inter" font-weight="700">Choose Avatar</text>
+  </g>
+  <g>
+    <rect x="360" y="160" rx="16" ry="16" width="260" height="220" fill="#162238" stroke="#2a3a5c"/>
+    <rect x="380" y="190" rx="10" ry="10" width="220" height="40" fill="#1c2b49" stroke="#2a3a5c"/>
+    <rect x="380" y="240" rx="10" ry="10" width="220" height="40" fill="#1c2b49" stroke="#2a3a5c"/>
+    <rect x="380" y="290" rx="10" ry="10" width="220" height="40" fill="#1c2b49" stroke="#2a3a5c"/>
+    <text x="425" y="330" fill="#f1f5f9" font-family="Inter" font-weight="700">Pick a Quest</text>
+  </g>
+  <g>
+    <rect x="680" y="160" rx="16" ry="16" width="260" height="220" fill="#162238" stroke="#2a3a5c"/>
+    <circle cx="810" cy="240" r="18" fill="#1c2b49" stroke="#2a3a5c"/>
+    <circle cx="860" cy="240" r="18" fill="#1c2b49" stroke="#2a3a5c"/>
+    <circle cx="910" cy="240" r="18" fill="#1c2b49" stroke="#2a3a5c"/>
+    <text x="745" y="330" fill="#f1f5f9" font-family="Inter" font-weight="700">Answer Quiz</text>
+  </g>
+  <g>
+    <rect x="980" y="160" rx="16" ry="16" width="160" height="220" fill="#162238" stroke="#2a3a5c"/>
+    <text x="1010" y="240" fill="#f1f5f9" font-family="Inter" font-weight="700">+XP</text>
+    <rect x="1005" y="260" rx="10" ry="10" width="110" height="36" fill="url(#gradGold)"/>
+    <text x="1020" y="284" fill="#1c1300" font-family="Inter" font-weight="700">Badge</text>
+  </g>
+  <path d="M290 270 H 360" stroke="#8bd3dd" stroke-width="3"/>
+  <path d="M620 270 H 680" stroke="#8bd3dd" stroke-width="3"/>
+  <path d="M940 270 H 980" stroke="#8bd3dd" stroke-width="3"/>
+</svg>

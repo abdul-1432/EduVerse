@@ -1,0 +1,11 @@
+{
+  "name": "eduverse",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev": "echo Run client and server dev scripts in their folders",
+    "build": "npm --workspaces run build",
+    "seed": "npm --workspace server run seed"
+  }
+}
